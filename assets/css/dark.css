@@ -23,8 +23,8 @@ body {
     --PanShad: 0 0 2em rgb(83, 83, 83);
     --BacBSGra: 0 1em 1em 0 rgb(83, 83, 83);
     --TTSC: rgb(76, 147, 228);
-    --TTSCS: 0 10px 10px rgb(0, 88, 189);
-    --TTSCSM: 0 0 1vw rgb(0, 88, 189);
+    --TTSCS: 0 10px 10px rgb(83, 83, 83);
+    --TTSCSM: 0 0 1vw rgb(83, 83, 83);
     --PanelColor: brightness(0) saturate(100%) invert(16%) sepia(12%) saturate(0%) hue-rotate(101deg) brightness(95%) contrast(93%);
     --DDCC: rgb(255, 255, 255, 0.5);
     --DDCCH: rgb(192, 192, 192);
