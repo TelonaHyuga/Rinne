@@ -36,7 +36,7 @@
 
     .lang {
         padding: 1vw;
-        font-size: 4vw;
+        font-size: 3.5vw;
         border-radius: 2vw;
         margin: 1em;
     }
@@ -64,6 +64,18 @@
     .RLCP {
         margin-left: 4vw;
         margin-right: 4vw;
+    }
+
+    .dropdown-content a {
+        font-size: 4vw;
+    }
+
+    .flag {
+        width: 4vw;
+    }
+
+    .linkh3 {
+    font-size: 2.5vw;
     }
 
 }
