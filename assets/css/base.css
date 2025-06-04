@@ -23,6 +23,14 @@ h3 {
     text-align: center;
 }
 
+.linkh3 {
+    font-size: 1.1vw;
+}
+
+.flag {
+    width: 1.5vw;
+}
+
 html {
     scroll-behavior: smooth;
 }
