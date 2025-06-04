@@ -71,11 +71,14 @@
     }
 
     .linkh3 {
-        font-size: 8vw;
-        text-align: start;
+        font-size: 5vw;
     }
 
     .linkpoint {
-        width: 8vw;
+        width: 5vw;
+    }
+
+    .dropdown-content {
+        width: 6vw;
     }
 }
