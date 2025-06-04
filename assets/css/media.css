@@ -71,10 +71,11 @@
     }
 
     .linkh3 {
-        font-size: 2.5vw;
+        font-size: 4vw;
+        text-align: start;
     }
 
     .linkpoint {
-    width: 4vw;
+    width: 5vw;
     }
 }
