@@ -31,6 +31,10 @@ h3 {
     width: 1.5vw;
 }
 
+.linkpoint {
+    width: 2vw;
+}
+
 html {
     scroll-behavior: smooth;
 }
