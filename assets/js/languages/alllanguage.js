@@ -24,7 +24,7 @@ const langArr = {
     },
 
     "partfoliolink" : {
-        "ru": '<a href="partfolio.html#ru" style="width: 13vw;"><ul class="row"><li class="PE"><img src="./assets/image/THRLogo.svg" class="img_1_1 PSVGOFF linkpoint"></li><li class="PE"><h3 class="linkh3">Партфолио</h3></li></ul></a>',
+        "ru": '<a href="partfolio.html#ru" style="width: 13vw;"><ul class="row"><li class="PE"><img src="./assets/image/THRLogo.svg" class="img_1_1 PSVGOFF linkpoint"></li><li class="PE"><h3 class="linkh3">Портфолио</h3></li></ul></a>',
         "en": '<a href="partfolio.html#en" style="width: 13vw;"><ul class="row"><li class="PE"><img src="./assets/image/THRLogo.svg" class="img_1_1 PSVGOFF linkpoint"></li><li class="PE"><h3 class="linkh3">Portfolio</h3></li></ul></a>',
         "fr": '<a href="partfolio.html#fr" style="width: 13vw;"><ul class="row"><li class="PE"><img src="./assets/image/THRLogo.svg" class="img_1_1 PSVGOFF linkpoint"></li><li class="PE"><h3 class="linkh3">Portefeuille</h3></li></ul></a>',
     },
@@ -33,5 +33,11 @@ const langArr = {
         "ru": '<a href="links.html#ru" style="width: 13vw;"><ul class="row"><li class="PE"><img src="./assets/image/THRLogo.svg" class="img_1_1 PSVGOFF linkpoint"></li><li class="PE"><h3 class="linkh3">Ссылки</h3></li></ul></a>',
         "en": '<a href="links.html#en" style="width: 13vw;"><ul class="row"><li class="PE"><img src="./assets/image/THRLogo.svg" class="img_1_1 PSVGOFF linkpoint"></li><li class="PE"><h3 class="linkh3">Links</h3></li></ul></a>',
         "fr": '<a href="links.html#fr" style="width: 13vw;"><ul class="row"><li class="PE"><img src="./assets/image/THRLogo.svg" class="img_1_1 PSVGOFF linkpoint"></li><li class="PE"><h3 class="linkh3">Liens</h3></li></ul></a>',
+    },
+
+    "pricelink" : {
+        "ru": '<a href="price.html#ru" style="width: 13vw;"><ul class="row"><li class="PE"><img src="./assets/image/THRLogo.svg" class="img_1_1 PSVGOFF linkpoint"></li><li class="PE"><h3 class="linkh3">Цены</h3></li></ul></a>',
+        "en": '<a href="price.html#en" style="width: 13vw;"><ul class="row"><li class="PE"><img src="./assets/image/THRLogo.svg" class="img_1_1 PSVGOFF linkpoint"></li><li class="PE"><h3 class="linkh3">Price</h3></li></ul></a>',
+        "fr": '<a href="price.html#fr" style="width: 13vw;"><ul class="row"><li class="PE"><img src="./assets/image/THRLogo.svg" class="img_1_1 PSVGOFF linkpoint"></li><li class="PE"><h3 class="linkh3">Prix</h3></li></ul></a>',
     },
 }

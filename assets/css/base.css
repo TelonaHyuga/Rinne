@@ -136,22 +136,6 @@ input:checked + .slider:before {
     transform: translateX(2rem);
 }
 
-.lang {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-    padding: 0.5vw;
-    border-radius: 0.5vw;
-    background-color: var(--TTSC);
-    border: 0;
-    box-shadow: 0 0 10px var(--TCO);
-    scale: 1.5;
-    color: var(--WT);
-    text-align: center;
-    position: absolute;
-    margin: 2em;
-}
-
 select {
   transition: 0.4s;
 }

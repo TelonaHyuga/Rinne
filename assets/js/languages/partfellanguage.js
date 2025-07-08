@@ -14,4 +14,9 @@ const langPartfel = {
         "en": "(displayed with non-critical errors)",
         "fr": "(affiché avec des erreurs non critiques)",
     },
+    "swords" : {
+        "ru": "Мечи",
+        "en": "Swordds",
+        "fr": "Épées",
+    },
 }

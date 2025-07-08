@@ -64,6 +64,7 @@
 
 .PSVG:hover {
     scale: 1.5;
+    box-shadow: var(--shadowSVG);
 }
 
 .PanelP {

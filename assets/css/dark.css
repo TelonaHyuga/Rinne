@@ -35,6 +35,10 @@ body {
     --HSB: rgb(48, 130, 224);
     --HSBS: 0 0 10px rgb(83, 83, 83);
     --SOB: rgb(76, 147, 228);
+    --BaseText: black;
+    --SCB: #5a7988;
+    --DBC: rgba(0, 0, 0, 0.199);
+    --shadowSVG: 0 10px 10px;
 }
 :root[t-theme='dark'] {
     --TCO: rgb(255, 108, 108);
@@ -59,4 +63,8 @@ body {
     --HSB: rgb(253, 56, 56);
     --HSBS: 0 0 10px rgb(197, 35, 35);
     --SOB: rgb(255, 108, 108);
+    --BaseText: white;
+    --SCB: #885a5a;
+    --DBC: rgba(0, 0, 0, 0.418);
+    --shadowSVG: 0 0 10px;
 }

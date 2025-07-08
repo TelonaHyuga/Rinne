@@ -38,7 +38,6 @@
 .TTBT {
     color: var(--TTSC);
     text-shadow: var(--TTSCSM);
-    font-size: 2vw;
 }
 
 .PEM {
