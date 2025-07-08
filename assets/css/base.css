@@ -68,7 +68,7 @@ html {
     margin-top: 0.6rem;
     color: var(--TTSC);
     text-shadow: var(--TTSCS);
-    font-size: 1.5rem;
+    font-size: 0.6em;
 }
 
 li {
@@ -89,8 +89,8 @@ li {
     margin-top: 0px;
     position: relative;
     display: inline-block;
-    width: 5rem;
-    height: 3rem;
+    width: 2em;
+    height: 1em;
 }
 
 /* Hide default HTML checkbox */
@@ -112,10 +112,10 @@ li {
 .slider:before {
     position: absolute;
     content: "";
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 0.8em;
+    width: 0.8em;
     left: 0.3rem;
-    bottom: 4px;
+    bottom: 0.1em;
     background-color: var(--BacCol);
     -webkit-transition: .4s;
     transition: .4s;
@@ -131,9 +131,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-    -webkit-transform: translateX(2rem);
-    -ms-transform: translateX(2rem);
-    transform: translateX(2rem);
+    -webkit-transform: translateX(1em);
+    -ms-transform: translateX(1em);
+    transform: translateX(1em);
 }
 
 select {
