@@ -18,9 +18,9 @@ const langPrice = {
     },
 
     "websiteprice" : {
-        "ru": 'Цена: от 5000 руб (зависит от сложности)',
-        "en": 'Price: from 63 wmz (depends on complexity)',
-        "fr": 'Prix: à partir de 63 wmz (dépend de la complexité)',
+        "ru": 'Цена: от 1000 руб (зависит от сложности)',
+        "en": 'Price: from 13 wmz (depends on complexity)',
+        "fr": 'Prix: à partir de 13 wmz (dépend de la complexité)',
     },
 
     "skin" : {
