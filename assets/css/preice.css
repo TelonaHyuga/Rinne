@@ -1,0 +1,79 @@
+.TTT2 {
+  margin: 0.5vw 2vw 0 0;
+  color: var(--TTSC);
+  text-shadow: var(--TTSCS);
+  font-size: 2em;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.switch2 {
+    margin-top: 0px;
+    position: relative;
+    display: inline-block;
+    width: 6em;
+    height: 3em;
+}
+
+.switch2 input {display: none;}
+
+.slider2 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(76, 147, 228);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider2:before {
+    position: absolute;
+    content: "";
+    height: 2.8em;
+    width: 2.8em;
+    left: 0.3rem;
+    bottom: 0.1em;
+    background-color: var(--BacCol);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider2 {
+    background-color: rgb(255, 108, 108);
+}
+
+input:focus + .slider2 {
+    box-shadow: 0 0 1px var(--TCO);
+}
+
+input:checked + .slider2:before {
+    -webkit-transform: translateX(2.6em);
+    -ms-transform: translateX(2.6em);
+    transform: translateX(2.6em);
+}
+
+select {
+  transition: 0.4s;
+}
+
+select:hover,
+select:focus {
+  background: var(--HSB);
+  box-shadow: var(--HSBS);
+}
+
+option {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  background: var(--SOB);
+  padding: 10px;
+}
