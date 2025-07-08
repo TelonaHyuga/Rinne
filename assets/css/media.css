@@ -81,4 +81,24 @@
     .dropdown-content {
         width: 60vw;
     }
+
+    .imgslide {
+        width:30%;
+        margin-left: 32%;
+    }
+
+    .textBlock {
+        top: 30vw;
+        width: 90%;
+        height: 60%;
+        margin-left: 5vw;
+    }
+
+    .slideshow-container {
+        height: 80em;
+    }
+
+    .slideshow-container-new {
+        height: 80em;
+    }
 }
