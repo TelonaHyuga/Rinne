@@ -54,7 +54,7 @@
     }
 
     .row {
-        flex-wrap: wrap;;
+        flex-wrap: wrap;
     }
 
     .scaller {
@@ -82,23 +82,17 @@
         width: 60vw;
     }
 
-    .imgslide {
-        width:30%;
-        margin-left: 32%;
+    .slideshow-container .imgslide {
+        aspect-ratio: 2/1;
+        object-fit: contain;
+        height: 40vw;
     }
 
-    .textBlock {
-        top: 30vw;
-        width: 90%;
-        height: 60%;
-        margin-left: 5vw;
+    .playerbox .prev {
+        font-size: 3em;
     }
 
-    .slideshow-container {
-        height: 80em;
-    }
-
-    .slideshow-container-new {
-        height: 80em;
+    .playerbox .next {
+        font-size: 3em;
     }
 }

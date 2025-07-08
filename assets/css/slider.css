@@ -5,16 +5,16 @@
 }
 
 .imgslide {
-    width: 30%;
-    margin: 4vw 2em 0 4em;
+    height: 20vw;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 3em;
+    margin-left: 1.5em;
     box-shadow: var(--PanShad);
 }
 
 .sliderpanel {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 90%;
 }
@@ -23,13 +23,13 @@
 
 /* Slideshow container */
 .slideshow-container {
-  height: 46em;
+  height: auto;
   position: relative;
   margin: auto;
 }
 
 .slideshow-container-new {
-  height: 32em;
+  height: auto;
   position: relative;
   margin: auto;
 }
@@ -72,19 +72,15 @@
 /* Caption text */
 .textBlock {
   padding: 8px 12px;
-  position: absolute;
-  top: 2vw;
-  width: 62%;
-  height: 80%;
-  margin-left: 31vw;
-  text-align: left;
+  margin: 2vw;
+  background: black;
 }
 
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 1vw;
-  width: 1vw;
+  height: 2em;
+  width: 2em;
   margin: 0 2px 0.5vw 0;
   background-color: #bbb;
   border-radius: 50%;

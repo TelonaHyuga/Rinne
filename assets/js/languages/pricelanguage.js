@@ -24,9 +24,9 @@ const langPrice = {
     },
 
     "skin" : {
-        "ru": '<br><br>Ваш minecraft скин, от художницы с портфолио в 1000 работ. Готова реализовать все самые необычные идеи!<br><br> Время работы - около недели',
-        "en": '<br><br>Your Minecraft skin, from an artist with a portfolio of 1000 works. Ready to implement all the most unusual ideas!<br><br> Work time - about a week',
-        "fr": '<br><br>Votre skin Minecraft, créé par un artiste ayant un portfolio de 1 000 œuvres. Prêt à mettre en œuvre toutes vos idées les plus originales !<br><br> Durée : environ une semaine',
+        "ru": 'Ваш minecraft скин, от художницы с портфолио в 1000 работ. Готова реализовать все самые необычные идеи!<br><br> Время работы - около недели',
+        "en": 'Your Minecraft skin, from an artist with a portfolio of 1000 works. Ready to implement all the most unusual ideas!<br><br> Work time - about a week',
+        "fr": 'Votre skin Minecraft, créé par un artiste ayant un portfolio de 1 000 œuvres. Prêt à mettre en œuvre toutes vos idées les plus originales !<br><br> Durée : environ une semaine',
     },
 
     "model" : {
