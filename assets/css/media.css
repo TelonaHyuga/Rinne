@@ -97,4 +97,21 @@
         margin: 5vw 0 0 0;
         font-size: 1em;
     }
+
+    .tabcontent .tabwith {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .set .tab {
+        margin-left: 3em;
+    }
+
+    .WebH {
+        width: 50em;
+    }
+
+    .set .tab button {
+        padding: 0;
+    }
 }
