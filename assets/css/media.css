@@ -76,16 +76,16 @@
         aspect-ratio: 2/1;
         object-fit: contain;
         height: 40vw;
-        margin-left: 0.5em;
+        margin-left: 2em;
     }
 
     .playerbox .prev {
-        font-size: 2em;
+        font-size: 4em;
         top: 20%;
     }
 
     .playerbox .next {
-        font-size: 2em;
+        font-size: 4em;
         top: 20%;
     }
 
