@@ -1,26 +1,26 @@
 const langPrice = {
     "skinprice" : {
-        "ru": 'Цена: 150 руб (2 wmz)',
-        "en": 'Price: 2 wmz',
-        "fr": 'Prix: 2 wmz',
+        "ru": 'Цена: 150 &#8381; руб (2 &#36; wmz)',
+        "en": 'Price: 2 &#36; wmz',
+        "fr": 'Prix: 2 &#36; wmz',
     },
 
     "modelprice" : {
-        "ru": 'Цена: от 100 руб (1 wmz) (зависит от сложности)',
-        "en": 'Price: from 1 wmz (depends on complexity)',
-        "fr": 'Prix: à partir de 1 wmz (dépend de la complexité)',
+        "ru": 'Цена: от 100 &#8381; руб (1 &#36; wmz) (зависит от сложности)',
+        "en": 'Price: from 1 &#36; wmz (depends on complexity)',
+        "fr": 'Prix: à partir de 1 &#36; wmz (dépend de la complexité)',
     },
 
     "designprice" : {
-        "ru": 'Цена: от 5000 руб (63 wmz) (зависит от сложности)',
-        "en": 'Price: from 63 wmz (depends on complexity)',
-        "fr": 'Prix: à partir de 63 wmz (dépend de la complexité)',
+        "ru": 'Цена: от 5000 &#8381; руб (63 &#36; wmz) (зависит от сложности)',
+        "en": 'Price: from 63 &#36; wmz (depends on complexity)',
+        "fr": 'Prix: à partir de 63 &#36; wmz (dépend de la complexité)',
     },
 
     "websiteprice" : {
-        "ru": 'Цена: от 1000 руб (13 wmz) (зависит от сложности)',
-        "en": 'Price: from 13 wmz (depends on complexity)',
-        "fr": 'Prix: à partir de 13 wmz (dépend de la complexité)',
+        "ru": 'Цена: от 1000 &#8381; руб (13 &#36; wmz) (зависит от сложности)',
+        "en": 'Price: from 13 &#36; wmz (depends on complexity)',
+        "fr": 'Prix: à partir de 13 &#36; wmz (dépend de la complexité)',
     },
 
     "skin" : {
