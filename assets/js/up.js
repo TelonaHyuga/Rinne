@@ -1,16 +1,5 @@
 // Get the button:
-let upbutton = document.getElementById("upBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    upbutton.style.display = "block";
-  } else {
-    upbutton.style.display = "none";
-  }
-}
+let mybutton = document.getElementById("upBtn");
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {

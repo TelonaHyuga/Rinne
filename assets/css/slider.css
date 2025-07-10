@@ -9,14 +9,12 @@
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 3em;
-    margin-left: 1.5em;
     box-shadow: var(--PanShad);
 }
 
 .sliderpanel {
     position: relative;
     bottom: 0;
-    width: 90%;
 }
 
 * {box-sizing:border-box}
@@ -26,6 +24,9 @@
   height: auto;
   position: relative;
   margin: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
 }
 
 .slideshow-container-new {
