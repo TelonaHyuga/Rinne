@@ -6,7 +6,7 @@ const langArr = {
     },
 
     "homelink" : {
-        "ru": '<a href="index.html#ru" style="width: 13vw;"><h3 class="linkh3">&#9775; Главная</a>',
+        "ru": '<a href="index.html#ru" style="width: 13vw;"><h3 class="linkh3">&#9775; Главная</h3></a>',
         "en": '<a href="index.html#en" style="width: 13vw;"><h3 class="linkh3">&#9775; Home</h3></a>',
         "fr": '<a href="index.html#fr" style="width: 13vw;"><h3 class="linkh3">&#9775; Maison</h3></a>',
     },
