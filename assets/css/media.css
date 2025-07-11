@@ -96,6 +96,7 @@
 
     .set .tab {
         margin-left: 3em;
+        margin-right: 3em;
     }
 
     .set .tab button {
@@ -109,5 +110,13 @@
     /* The progress bar (scroll indicator) */
     .header .progress-bar {
         height: 20px;
+    }
+
+    #upBtn {
+        scale: 1.5;
+    }
+
+    .ThemeSwitch {
+        scale: 1.5;
     }
 }
