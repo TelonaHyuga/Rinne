@@ -93,6 +93,10 @@ li {
     height: 1em;
 }
 
+.ThemeSwitch {
+    margin: 0.5em;
+}
+
 /* Hide default HTML checkbox */
 .switch input {display: none;}
 
