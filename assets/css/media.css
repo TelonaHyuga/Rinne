@@ -68,10 +68,6 @@
         width: 5vw;
     }
 
-    .dropdown-content {
-        
-    }
-
     .slideshow-container .imgslide {
         aspect-ratio: 2/1;
         object-fit: contain;
@@ -118,5 +114,9 @@
 
     .uptodown {
         bottom: -50em;
+    }
+
+    .langdrop {
+        scale: 1.5;
     }
 }
