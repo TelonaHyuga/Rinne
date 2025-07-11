@@ -21,17 +21,12 @@
 
 .WebPort {
     aspect-ratio: 16/9;
-    width: 100%;
-    height: auto;
     border-radius: 3em;
     object-fit: contain;
+    
 }
 
 .RLCP {
     margin-left: 16vw;
     margin-right: 16vw;
-}
-
-.WebH {
-    width: 65em;
 }
