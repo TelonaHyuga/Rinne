@@ -1,14 +1,13 @@
 /* Style the tab */
 .tab {
     overflow: hidden;
-    margin: 2vw;
-    margin-left: 36rem;
-    margin-right: 36rem;
+    margin-inline: auto;
+    display: table;
 }
 
 .tabwith {
     margin-left: 20vw;
-    margin-right: 20vw;
+    margin-right: 20vw
 }
 
 /* Style the buttons that are used to open the tab content */

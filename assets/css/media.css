@@ -94,11 +94,6 @@
         margin-right: 5vw;
     }
 
-    .set .tab {
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-
     .set .tab button {
         padding: 0;
     }
@@ -119,5 +114,9 @@
     .ThemeSwitch {
         scale: 1.5;
         margin: 2rem 6rem 0 0;
+    }
+
+    .uptodown {
+        bottom: -50em;
     }
 }
