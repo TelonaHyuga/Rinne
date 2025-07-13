@@ -3,7 +3,7 @@
 }
 
 .portfolio{
-    margin-top: 5vw;
+    margin-top: -4vw;
     width: 50vw;
 }
 
@@ -17,10 +17,11 @@
 .THRHead {
     transition: 0.8s;
     width: 16.5vw;
+    scale: 1.5;
 }
 
 .THRHead:hover {
-    scale: 1.5;
+    scale: 1.8;
 }
 
 .TabelHeadLeft {
