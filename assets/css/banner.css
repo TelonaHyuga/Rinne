@@ -40,13 +40,15 @@
 }
 
 .Panel {
-    background-color: var(--BacCol);
-    transition: 0.8s;
+    background: var(--BacCol);
     border-radius: 3em;
     box-shadow: var(--PanShad);
-    padding: 0.5vw;
     margin-left: 4vw;
     margin-right: 4vw;
+}
+
+.Panel ul {
+    padding: 0.5vw;
 }
 
 .PE {

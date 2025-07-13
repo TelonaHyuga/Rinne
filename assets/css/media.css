@@ -94,12 +94,12 @@
         padding: 0;
     }
 
-    .header .progress-container {
+    .header2 .progress-container {
         height: 20px;
     }
 
     /* The progress bar (scroll indicator) */
-    .header .progress-bar {
+    .header2 .progress-bar {
         height: 20px;
     }
 
