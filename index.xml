@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://telonahyuga.github.io/Rinne/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1,0</priority>
+  </url>
+
+  <url>
+    <loc>https://telonahyuga.github.io/Rinne/info.html/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0,5</priority>
+  </url>
+
+  <url>
+    <loc>https://telonahyuga.github.io/Rinne/links.html/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0,1</priority>
+  </url>
+
+  <url>
+    <loc>https://telonahyuga.github.io/Rinne/partners.html/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0,5</priority>
+  </url>
+
+  <url>
+    <loc>https://telonahyuga.github.io/Rinne/portfolio.html/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1,0</priority>
+  </url>
+
+  <url>
+    <loc>https://telonahyuga.github.io/Rinne/price.html/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1,0</priority>
+  </url>
+
+</urlset>
