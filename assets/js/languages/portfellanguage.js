@@ -16,7 +16,7 @@ const langPortfel = {
     },
     "swords" : {
         "ru": "Мечи",
-        "en": "Swordds",
+        "en": "Swords",
         "fr": "Épées",
     },
 }
