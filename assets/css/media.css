@@ -123,4 +123,8 @@
     .TabsAcryl {
         background: none;
     }
+
+    .image-container img {
+        transition: none;
+    }
 }
