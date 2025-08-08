@@ -38,6 +38,22 @@
     animation: DropDownAnim normal .5s;
 }
 
+.dropdown-content h2 {
+    color: var(--TC);
+    padding: 12px 16px;
+    border-radius: 0.7em;
+    display: inherit;
+    animation: DropDownAnim normal .5s;
+}
+
+.dropdown-content h3 {
+    color: var(--TC);
+    padding: 12px 16px;
+    border-radius: 0.7em;
+    display: inherit;
+    animation: DropDownAnim normal .5s;
+}
+
 .dropup {
     bottom: 50px;
 }

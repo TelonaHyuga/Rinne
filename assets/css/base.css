@@ -201,3 +201,14 @@ option {
   margin-top: 8px;
   vertical-align: middle;
 }
+
+.copied {
+  display: none;
+  color: var(--TC);
+}
+
+.copy-btn {
+    background: none;
+    border: none;
+    outline: none;
+}
