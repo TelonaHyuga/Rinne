@@ -205,10 +205,21 @@ option {
 .copied {
   display: none;
   color: var(--TC);
+  margin-top: -1.2em;
+  margin-left: 2em;
 }
 
 .copy-btn {
     background: none;
     border: none;
     outline: none;
+}
+
+.copy {
+    width: 3em;
+}
+
+.PE2 {
+    margin-left: 2vw;
+    margin-top: -0.4em;
 }

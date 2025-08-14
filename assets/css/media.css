@@ -127,4 +127,26 @@
     .image-container img {
         transition: none;
     }
+
+    .copy {
+        width: 5em;
+    }
+
+    .PE2 {
+        margin: 2em;
+        background: var(--BacCol);
+        border-radius: 3em;
+        padding: 1em;
+        width: 6em;
+        height: 6em;
+        box-shadow: var(--PanShad);
+    }
+
+    .copied {
+        margin: 0;
+    }
+
+    .mediacolumn {
+        flex-direction: column;
+    }
 }
