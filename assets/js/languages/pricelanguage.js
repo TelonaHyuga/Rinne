@@ -46,4 +46,10 @@ const langPrice = {
         "en": 'A small html site, from a junior front-end developer. At the moment, my portfolio only contains 2 sites, you can see the second site in the corresponding tab.<br><br> Time of work - from a month, but depending on the complexity it can increase',
         "fr": 'Un p`tit site HTML, créé par un développeur front-end junior. Actuellement, mon portfolio ne contient que deux sites ; vous pouvez consulter le deuxième dans l`onglet correspondant.<br><br> Durée du travail : à partir d`un mois, mais peut augmenter selon la complexité',
     },
+
+    "connect" : {
+        "ru": 'Вы можете мне написать по поводу заказа тут:',
+        "en": 'You can write to me about your order here:',
+        "fr": 'Vous pouvez m`écrire à propos de votre commande ici :',
+    },
 }
