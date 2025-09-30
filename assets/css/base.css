@@ -66,8 +66,8 @@ html {
 .TTT {
     margin-right: 0.5em;
     margin-top: 0.6rem;
-    color: var(--TTSC);
-    text-shadow: var(--TTSCS);
+    color: var(--BaseColor);
+    text-shadow: var(--SecondShadow);
     font-size: 0.6em;
 }
 
@@ -120,7 +120,7 @@ li {
     width: 0.8em;
     left: 0.3rem;
     bottom: 0.1em;
-    background-color: var(--BacCol);
+    background-color: var(--Background);
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
@@ -131,7 +131,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px var(--TCO);
+    box-shadow: 0 0 1px var(--BaseColor);
 }
 
 input:checked + .slider:before {
@@ -146,15 +146,15 @@ select {
 
 select:hover,
 select:focus {
-  background: var(--DDCCH);
-  box-shadow: var(--HSBS);
+  background: var(--BlockShadow);
+  box-shadow: var(--BaseShadow);
 }
 
 option {
   display: flex;
   justify-content: flex-start;
   gap: 20px;
-  background: var(--SOB);
+  background: var(--BaseColor);
   padding: 10px;
 }
 
@@ -204,7 +204,7 @@ option {
 
 .copied {
   display: none;
-  color: var(--TC);
+  color: var(--TextColor);
   margin-top: -1.2em;
   margin-left: 2em;
 }

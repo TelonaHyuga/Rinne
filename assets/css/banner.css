@@ -40,9 +40,9 @@
 }
 
 .Panel {
-    background: var(--BacCol);
+    background: var(--Background);
     border-radius: 3em;
-    box-shadow: var(--PanShad);
+    box-shadow: var(--BlockShadow);
     margin-left: 4vw;
     margin-right: 4vw;
 }
@@ -56,21 +56,16 @@
 }
 
 .PSVG {
-    filter: var(--PanelColor);
+    filter: var(--SVGcolor);
     transition: 0.8s;
 }
 
 .PSVGOFF {
-    filter: var(--PanelColor);
-    transition: 0.8s;
+    filter: var(--SVGcolor);
 }
 
 .PSVG:hover {
     scale: 1.5;
-}
-
-.hoverShadow {
-    box-shadow: var(--shadowSVG);
 }
 
 .hoverBlock {
@@ -85,12 +80,6 @@
     justify-content: start;
 }
 
-.TextIcon {
-    color: var(--TC);
-    font-size: 4vw;
-    margin-top: -1.2vw;
-}
-
 .TextHover {
     transition: 0.8s;
 }
@@ -100,10 +89,10 @@
 }
 
 .PostBG {
-    background: var(--PortGrad);
+    background: var(--BackgroundGradient);
     aspect-ratio: 1/1;
     border-radius: 3em;
-    box-shadow: var(--PanShad);
+    box-shadow: var(--BlockShadow);
     background-repeat: no-repeat;
     background-size: contain;
 }
