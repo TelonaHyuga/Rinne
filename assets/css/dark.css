@@ -4,7 +4,7 @@ body {
 }
 
 .BackGradient {
-    background: linear-gradient(rgb(165, 54, 173), rgb(218, 107, 225));
+    background: linear-gradient(var(--SecondColor), var(--BaseColor));
     max-height: 40vw;
     width: 100%;
     aspect-ratio: 16/9;
@@ -14,6 +14,7 @@ body {
 
 :root {
     --BaseColor: rgb(218, 107, 225);
+    --SecondColor: rgb(165, 54, 173);
     --BaseShadow: 0 0 10px rgb(165, 54, 173);
     --SecondShadow: 0 10px 10px rgb(165, 54, 173);
     --Background: rgb(255, 255, 255);
@@ -29,6 +30,7 @@ body {
 
 :root[t-theme='dark'] {
     --BaseColor: rgb(218, 107, 225);
+    --SecondColor: rgb(165, 54, 173);
     --BaseShadow: 0 0 10px rgb(165, 54, 173);
     --SecondShadow: 0 10px 10px rgb(165, 54, 173);
     --Background: rgb(58, 58, 58);
