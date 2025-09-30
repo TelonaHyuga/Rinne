@@ -69,10 +69,11 @@
     }
 
     .slideshow-container .imgslide {
-        aspect-ratio: 2/1;
+        aspect-ratio: 16/9;
         object-fit: contain;
         height: 40vw;
-        margin-left: 2em;
+        margin-left: 6vw;
+        margin-bottom: 2vw;
     }
 
     .playerbox .prev {

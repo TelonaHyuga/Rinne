@@ -202,7 +202,7 @@ option {
 .copied {
   display: none;
   color: var(--TextColor);
-  margin-top: -1.2em;
+  margin-top: -1.5em;
   margin-left: 2em;
 }
 
@@ -210,4 +210,9 @@ option {
     background: none;
     border: none;
     outline: none;
+}
+
+.box {
+    border-radius: 3em;
+    box-shadow: var(--BlockShadow);
 }
