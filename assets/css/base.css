@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Minecraft Rus';
+    transition: 0.8s;
 }
 
 a {
