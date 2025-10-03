@@ -61,7 +61,7 @@
 .dropdown-content a:hover {background-color: var(--DropDownHover);}
 
 /* Показать выпадающее меню при наведении курсора */
-.dropdown:hover .dropdown-content {display: block; box-shadow: var(--BaseShadow)}
+.dropdown:hover .dropdown-content {display: block; box-shadow: var(--BlockShadow)}
 
 .change-lang {
     background-color: var(--DropDown);
