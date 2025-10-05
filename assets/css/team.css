@@ -55,3 +55,21 @@
 .ItemTabel3 {
     order: 3;
 }
+
+.LinkWithText {
+    cursor: pointer;
+    float: right;
+    margin-top: -30pt;
+    width: 35pt;
+    margin-right: 1em;
+    filter: drop-shadow( var(--BaseShadow));
+    z-index: 2;
+}
+
+.ElybyScale {
+
+}
+
+.ElybyScale:hover {
+    scale: 1.5;
+}

@@ -20,6 +20,7 @@ body {
     --Background: rgb(255, 255, 255);
     --BlockShadow: 0 0 2em rgb(83, 83, 83);
     --SVGcolor: brightness(0) saturate(100%) invert(16%) sepia(12%) saturate(0%) hue-rotate(101deg) brightness(95%) contrast(93%);
+    --SVGbase: brightness(0) saturate(100%) invert(82%) sepia(30%) saturate(6311%) hue-rotate(263deg) brightness(89%) contrast(96%);;
     --DropDown: rgba(255, 255, 255, 0.5);
     --DropDownHover: rgba(121, 121, 121, 0.5);
     --TextColor: rgb(58, 58, 58);
@@ -36,6 +37,7 @@ body {
     --Background: rgb(58, 58, 58);
     --BlockShadow: 0 0 2em rgb(27, 27, 27);
     --SVGcolor: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(273deg) brightness(103%) contrast(103%);
+    --SVGbase: brightness(0) saturate(100%) invert(82%) sepia(30%) saturate(6311%) hue-rotate(263deg) brightness(89%) contrast(96%);;
     --DropDown: rgba(58, 58, 58, 0.5);
     --DropDownHover: rgba(218, 107, 225, 0.5);
     --TextColor: rgb(255, 255, 255);
