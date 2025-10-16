@@ -16,4 +16,10 @@ const langInd = {
         "en": '<h1 class="TTBT">Who am I?</h1><br><br><h2 class="TTBT"> - I am a Minecraft skin artist and UI designer</h2><br><br><h2 class="TTBT"> - And sometimes I write websites and make 3D models, on other pages of my website you can find prices for my works, portfolio or contact me<h2 class="TTBT"></h2>',
         "fr": '<h1 class="TTBT">Qui suis-je ?</h1><br><br><h2 class="TTBT"> - Je suis un artiste de skins et un concepteur d`interface utilisateur de Minecraft</h2><br><br><h2 class="TTBT"> - Et parfois j`écris des sites Web et je fais des modèles 3D, sur d`autres pages de mon site Web, vous pouvez trouver les prix de mes travaux, mon portfolio ou me contacter</h2>',
     },
+
+    "post4" : {
+        "ru": '<h1 class="TTBT">Медный плащ</h1><br><h2 class="TTBT"> - Я получила этот прекрасный плащ, теперь у меня 2 любимых "бесплатных" плаща</h2><br><h2 class="TTBT"> - Мне не нравится тенденция плащей за просто так, да и в целом такие плащи, но медный и плащ с блинами мне очень нравятся</h2>',
+        "en": '<h1 class="TTBT">Copper cape</h1><br><h2 class="TTBT"> - I get a new beastiful cape, now I have 2 lovest "free" capes</h2><br><h2 class="TTBT"> - I dont love trend of free capes and this designs, but copper and pancake capes I think very cool</h2>',
+        "fr": '<h1 class="TTBT">Cape de cuivre</h1><br><h2 class="TTBT"> - J`ai reçu une nouvelle cape bestiale, maintenant j`ai 2 capes « gratuites » très appréciées</h2><br><h2 class="TTBT"> - Je n`aime pas la tendance des capes gratuites et ces modèles, mais je trouve les capes en cuivre et en crêpe vraiment cool</h2>',
+    },
 }
