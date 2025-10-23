@@ -145,4 +145,8 @@
     .under {
         margin-top: 2em;
     }
+
+    .langchange {
+        scale: 1.4;
+    }
 }

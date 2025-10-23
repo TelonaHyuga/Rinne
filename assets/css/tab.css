@@ -16,7 +16,6 @@
     border: none;
     outline: none;
     cursor: pointer;
-    transition: 0.3s;
     padding: 1vw;
     background-color: var(--Background);
     box-shadow: var(--BlockShadow);
@@ -26,12 +25,16 @@
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: rgb(218, 107, 225);
+    animation: tabshover 0.5s both linear;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: rgb(165, 54, 173);
+    background: linear-gradient(rgba(165, 54, 173) 0%, rgba(218, 107, 225) 100%);
+}
+
+.tab button.active:hover {
+    animation: none;
 }
 
 /* Style the tab content */
@@ -39,11 +42,5 @@
     display: none;
     padding: 6px 12px;
     border-top: none;
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
-}
-
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+    animation: fade2 1s; /* Fading effect takes 1 second */
 }

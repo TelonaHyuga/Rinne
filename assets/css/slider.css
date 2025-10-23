@@ -2,6 +2,7 @@
     margin: 2vw 5vw 2vw 5vw;
     box-shadow: var(--BlockShadow);
     border-radius: 3em;
+    Overflow: hidden
 }
 
 .imgslide {
@@ -94,8 +95,9 @@
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+  animation-name: slide;
+  animation-duration: 1s;
+  transform: translate(0, 0);
 }
 
 .paddingimage {

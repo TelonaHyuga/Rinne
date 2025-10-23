@@ -1,3 +1,107 @@
+@keyframes fade{
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes fade2{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tabshover {
+    0% {
+        background: var(--Background);
+    }
+
+    10% {
+        background: linear-gradient(var(--Background) 0%, rgba(218, 107, 225, 0.1) 100%);
+    }
+
+    20% {
+        background: linear-gradient(var(--Background) 0%, rgba(218, 107, 225, 0.2) 100%);
+    }
+
+    30% {
+        background: linear-gradient(var(--Background) 0%, rgba(218, 107, 225, 0.3) 100%);
+    }
+
+    40% {
+        background: linear-gradient(var(--Background) 0%, rgba(218, 107, 225, 0.4) 100%);
+    }
+
+    50% {
+        background: linear-gradient(var(--Background) 0%, rgba(218, 107, 225, 0.5) 100%);
+    }
+
+    60% {
+        background: linear-gradient(var(--Background) 0%, rgba(218, 107, 225, 0.6) 100%);
+    }
+
+    70% {
+        background: linear-gradient(var(--Background) 0%, rgba(218, 107, 225, 0.7) 100%);
+    }
+
+    80% {
+        background: linear-gradient(var(--Background) 0%, rgba(218, 107, 225, 0.8) 100%);
+    }
+
+    90% {
+        background: linear-gradient(var(--Background) 0%, rgba(218, 107, 225, 0.9) 100%);
+    }
+
+    100% {
+        background: linear-gradient(var(--Background) 0%, rgba(218, 107, 225) 100%);
+    }
+}
+
+@keyframes contenthover {
+    0% {
+        background:rgba(0, 0, 0, 0);
+    }
+
+    10% {
+        background: linear-gradient(-45deg, var(--BaseColor) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, var(--BaseColor) 100%);
+    }
+
+    30% {
+        background: linear-gradient(-45deg, var(--BaseColor) 0%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 75%, var(--BaseColor) 100%);
+    }
+
+    50% {
+        background: linear-gradient(-45deg, var(--BaseColor) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 70%, var(--BaseColor) 100%);
+    }
+
+    80% {
+        background: linear-gradient(-45deg, var(--BaseColor) 0%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0) 65%, var(--BaseColor) 100%);
+    }
+
+    100% {
+        background: linear-gradient(-45deg, var(--BaseColor) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, var(--BaseColor) 100%);
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(-200vw, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
 @keyframes DropDownAnim{
     0% {
         opacity: 0;
@@ -13,28 +117,49 @@
 @keyframes DropDownAnim2{
     0% {
         opacity: 0;
+        scale: 0;
+    }
+
+    50% {
+        opacity: 1;
+        scale: 1;
+    }
+
+    60% {
+        background: linear-gradient(-45deg, rgba(0, 0, 0, 0) 80%, var(--BaseColor) 90%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    70% {
+        background: linear-gradient(-45deg, rgba(0, 0, 0, 0) 60%, var(--BaseColor) 70%, rgba(0, 0, 0, 0) 80%);
+    }
+
+    80% {
+        background: linear-gradient(-45deg, rgba(0, 0, 0, 0) 40%, var(--BaseColor) 50%, rgba(0, 0, 0, 0) 60%);
+    }
+
+    90% {
+        background: linear-gradient(-45deg, rgba(0, 0, 0, 0) 20%, var(--BaseColor) 30%, rgba(0, 0, 0, 0) 40%);
     }
 
     100% {
-        opacity: 1;
+        background: linear-gradient(-45deg, rgba(0, 0, 0, 0) 0%, var(--BaseColor) 10%, rgba(0, 0, 0, 0) 20%);
     }
 }
 
-@keyframes DropDownAnimPort{
+@keyframes head {
     0% {
-        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(0, 2vw);
+    }
+
+    80% {
+        transform: translate(0, -2vw);
     }
 
     100% {
-        opacity: 1;
+        transform: translate(0, 0);
     }
-}
-
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
