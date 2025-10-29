@@ -149,4 +149,20 @@
     .langchange {
         scale: 1.4;
     }
+
+    .dropdown-content a {
+        animation: DropDownAnim normal .3s linear;
+    }
+
+    .dropdown-content h1 {
+        animation: DropDownAnim normal .3s linear;
+    }
+
+    .dropdown-content h2 {
+        animation: DropDownAnim normal .3s linear;
+    }
+
+    .dropdown-content h3 {
+        animation: DropDownAnim normal .3s linear;
+    }
 }
