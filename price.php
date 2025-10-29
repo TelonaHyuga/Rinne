@@ -1,0 +1,285 @@
+<?php
+    session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rinne, price list, model price, skin price, webdesign price</title>
+        <meta name="keywords" content="rinne, ринне, minecraft, майнкрафт, design, дизайн, designer, дизайнерша, skin, скин, цены, price"/>
+        <meta name="description" content="Price - prices for service on make minecraft skins, low-poly models or web design"/>
+
+        <link rel="icon" type="image/webp" href="./assets/image/RinneSiteLogo.webp">
+
+        <!--CSS Styles-->
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/dark.css">
+        <link rel="stylesheet" href="./assets/css/banner.css">
+        <link rel="stylesheet" href="./assets/css/dropdown.css">
+        <link rel="stylesheet" href="./assets/css/team.css">
+        <link rel="stylesheet" href="./assets/css/portfolio.css">
+        <link rel="stylesheet" href="./assets/css/partners.css">
+        <link rel="stylesheet" href="./assets/css/media.css">
+        <link rel="stylesheet" href="./assets/css/animation.css">
+        <link rel="stylesheet" href="./assets/css/slider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <button onclick="topFunction()" id="upBtn" title="Up">&#9650;</button>
+        <div>
+            <div>
+                <!--Banner start-->
+                <!--Banner gradiet-->
+                <div class="BackGradient"> 
+                    <!--Switch start-->
+                    <div style="float: right;" class="ThemeSwitch"> <!--Right align-->
+                        <ul class="row" style="font-size: 3rem;">
+                            <!--Text-->
+                            <li><p class="TTT lng-tswitch"></p></li>
+                            <li> <!--Switch-->
+                                <label class="switch">
+                                    <input type="checkbox" id="chk" class="themeToggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </li>
+                        <ul>
+                    </div>
+                    <!--Switch end-->
+                    
+                    <!--Deco start-->
+                    <div style="padding-top: 15vw;">
+                        <ul class="row">
+                            <li class="tabelbanner">
+                                <div class="THRTitel">
+                                    <img src="./assets/image/price.webp" class="img_16_9" alt="title">
+                                </div>
+                            </li>
+                            <li class="TabelHeadLeft">
+                                <div class="THRHead">
+                                    <img src="./assets/image/THR posed.webp" class="img_1_1" alt="THR model on sofa">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Deco end-->
+                </div>
+                <!--Banner end-->
+
+                <!--Panel start-->
+                <div class="sticky">
+                    <div class="Panel" style="margin-top: 3vw;">
+                        <ul class="row PanelP">
+
+                            <!--Panel List Start-->
+                            <li class="PE">
+                                <div style="cursor: pointer;" class="dropdown">
+                                    <img src="./assets/image/list.svg" class="img_1_1 PSVG">
+                                    <div class="dropdown-content">
+
+                                        <h1 class="lng-homelink"></h1>
+                                        <h1 class="lng-portfoliolink"></h1>
+                                        <h1 class="lng-pricelink"></h1>
+                                        <h1 class="lng-inflink"></h1>
+                                        <h1 class="lng-partlink"></h1>
+                                        <h1 class="lng-linkslink"></h1>
+
+                                      </div>
+                                </div>
+                            </li>
+
+                            <li class="PE">
+                                <div style="cursor: pointer;" class="dropdown">
+                                    <img src="./assets/image/language.svg" class="img_1_1 PSVG">
+                                    <div class="dropdown-content langchange">
+                                        <select class="change-lang">
+                                            <option value="ru"><h3>RU</h3></option>
+                                            <option value="en"><h3>EN</h3></option>
+                                            <option value="fr"><h3>FR</h3></option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="PE">
+                                <div style="cursor: pointer;" class="dropdown">
+                                    <img src="./assets/image/TG.svg" class="img_1_1 PSVG dropbtn">
+                                    <div class="dropdown-content">
+                                        <h1 class="linkh3"><a href="https://t.me/channel_thr">Channel RU</a></h1>
+                                        <h1 class="linkh3"><a href="https://t.me/TelonaHyuga">_THR_</a></h1>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="PE">
+                                <a href="https://www.twitch.tv/telonahyuga" style="cursor: pointer;">
+                                    <img src="./assets/image/twitch.svg" class="img_1_1 PSVG">
+                                </a>
+                            </li>
+                            <li class="PE">
+                                <a href="https://discord.gg/ReXtPfsZ" style="cursor: pointer;">
+                                    <img src="./assets/image/discord.svg" class="img_1_1 PSVG">
+                                </a>
+                            </li>
+                            <li class="PE">
+                                <a href="https://namemc.com/profile/_THR_.3" style="cursor: pointer;">
+                                    <img src="./assets/image/Namemc.svg" class="img_1_1 PSVG">
+                                </a>
+                            </li>
+                            <!--Panel List End-->
+                        </ul>
+                    </div>
+                </div>
+                <!--Panel end-->
+
+                <!--Start sider-->
+                <!-- Slideshow container -->
+                <div class="playerbox">
+                    <div class="slideshow-container">
+
+                    <!--Text start-->
+                    <div class="mySlides fade">
+                        <ul class="row paddingimage">
+                            <li>
+                                <img src="assets/image/skins/skinprice.webp" class="imgslide" alt="skin in minecraft">
+                            </li>
+                            <li>
+                                <div class="textBlock box"><h2 class="TTBT lng-skin"></h2></div>
+                            </li>
+                        </ul>
+                        <!--Panel start-->
+                        <div>
+                            <ul class="row Panel sliderpanel mediacolumn" style="padding: 2vw; border-radius: 2em;">
+                                <li>
+                                    <h2 class="TTBT lng-skinprice" style="text-align: left; margin-left: 1vw;"></h2>
+                                </li>
+                                <li>
+                            </ul>
+                        </div>
+                        <!--Panel end-->
+                    </div>
+                    <!--Text end-->
+
+                    <!--Text start-->
+                    <div class="mySlides fade">
+                        <ul class="row paddingimage">
+                            <li>
+                                <img src="assets/image/models/THRModel.webp" class="imgslide" alt="model in minecraft style for CPM mode">
+                            </li>
+                            <li>
+                                <div class="textBlock box"><h2 class="TTBT lng-model"></h2></div>
+                            </li>
+                        </ul>
+                        <!--Panel start-->
+                        <div>
+                            <ul class="row Panel sliderpanel" style="padding: 2vw; border-radius: 2em;">
+                                <li>
+                                    <h2 class="TTBT lng-modelprice" style="text-align: left; margin-left: 1vw;"></h2>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Panel end-->
+                    </div>
+                    <!--Text end-->
+
+                    <!--Text start-->
+                    <div class="mySlides fade">
+                        <ul class="row paddingimage">
+                            <li>
+                                <img src="assets/image/code.svg" class="imgslide" style="padding: 5vw;" alt="code">
+                            </li>
+                            <li>
+                                <div class="textBlock box"><h2 class="TTBT lng-website"></h2></div>
+                            </li>
+                        </ul>
+                        <!--Panel start-->
+                        <div>
+                            <ul class="row Panel sliderpanel" style="padding: 2vw; border-radius: 2em;">
+                                <li>
+                                    <h2 class="TTBT lng-websiteprice" style="text-align: left; margin-left: 1vw;"></h2>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Panel end-->
+                    </div>
+                    <!--Text end-->
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+                <!--End sider-->
+
+                <!--Panel start-->
+                <div style="margin-bottom: 1vw;">
+                    <h2 class="TTBT lng-connect" style="text-align: center; margin: 1vw;"></h2>
+                    <div class="Panel">
+                        <ul class="row PanelP">
+
+                            <li class="PE">
+                                <a href="https://bsky.app/profile/telonahyuga.github.io" style="cursor: pointer;">
+                                    <img src="./assets/image/bluesky.svg" class="img_1_1 PSVG">
+                                </a>
+                            </li>
+
+                            <li class="PE">
+                                <a href="https://t.me/TelonaHyuga" style="cursor: pointer;">
+                                    <img src="./assets/image/TG.svg" class="img_1_1 PSVG">
+                                </a>
+                            </li>
+
+                            <li class="PE">
+                                <a href="https://x.com/TelonaHyuga" style="cursor: pointer;">
+                                    <img src="./assets/image/x-social.svg" class="img_1_1 PSVG">
+                                </a>
+                            </li>
+
+                            <li class="PE">
+                                <a href="https://www.instagram.com/telonahyuga/" style="cursor: pointer;">
+                                    <img src="./assets/image/instagram.svg" class="img_1_1 PSVG">
+                                </a>
+                            </li>
+
+                            <li class="PE">
+
+                                <div style="cursor: pointer;" class="dropdown">
+                                    <button class="copy-btn"><img src="./assets/image/email-major.svg" class="img_1_1 PSVG dropbtn"></button>
+                                    <div class="dropdown-content dropup">
+                                        <h2 class="copy-field" id="copy-field">thr.job@yahoo.com</h2>
+                                    </div>
+                                </div>
+
+                                <div style="margin-left: 1vw;">
+                                    <h1 class="copied" style="text-align: left;">Copied!</h1>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--Panel end-->
+
+            <div>
+                
+            </div>
+        </div>
+        
+        <script src="./assets/js/languages/pricelanguage.js"></script>
+        <script src="./assets/js/languages/alllanguage.js"></script>
+        <script src="./assets/js/languages/script/pricelang.js"></script>
+        <script src="./assets/js/slider.js"></script>
+        <script src="./assets/js/copy.js"></script>
+        <script src="./assets/js/up.js"></script>
+        <script src="./assets/js/theme.js"></script>
+        <script src="./assets/js/memory.js"></script>
+    </body>
+</html>
