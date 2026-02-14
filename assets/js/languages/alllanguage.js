@@ -40,4 +40,10 @@ const langArr = {
         "en": '<a href="price#en" style="width: 13vw;"><h3 class="linkh3">&#36; Price</h3></a>',
         "fr": '<a href="price#fr" style="width: 13vw;"><h3 class="linkh3">&#36; Prix</h3></a>',
     },
+
+    "newlink" : {
+        "ru": '<h1 class="TTBT">Я перенесла сайт на новый домен - telona.xo.je</h1><br><h1 class="TTBT">Сайт по этому домену больше не обновляется</h1><br><h1 class="TTBT">Нажмите для перехода на новый сайт</h1>',
+        "en": '<h1 class="TTBT">I moved the site to a new domain - telona.xo.je</h1><br><h1 class="TTBT">The site for this domain is no longer updated</h1><br><h1 class="TTBT">Click to go to the new site</h1>',
+        "fr": '<h1 class="TTBT">J`ai déplacé le site vers un nouveau domaine : telona.xo.je</h1><br><h1 class="TTBT">Ce site n`est plus mis à jour</h1><br><h1 class="TTBT">Cliquez ici pour accéder au nouveau site</h1>',
+    },
 }
