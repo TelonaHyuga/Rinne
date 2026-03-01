@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://telonahyuga.github.io/Rinne/</loc>
+    <loc>https://telonahyuga.github.io/THR_Arch/</loc>
     <changefreq>daily</changefreq>
     <priority>1,0</priority>
   </url>
 
   <url>
-    <loc>https://telonahyuga.github.io/Rinne/install.html/</loc>
+    <loc>https://telonahyuga.github.io/THR_Arch/install.html/</loc>
     <changefreq>monthly</changefreq>
     <priority>0,5</priority>
   </url>
 
   <url>
-    <loc>https://telonahyuga.github.io/Rinne/interesting.html/</loc>
+    <loc>https://telonahyuga.github.io/THR_Arch/interesting.html/</loc>
     <changefreq>yearly</changefreq>
     <priority>0,1</priority>
   </url>
 
   <url>
-    <loc>https://telonahyuga.github.io/Rinne/commands.html/</loc>
+    <loc>https://telonahyuga.github.io/THR_Arch/commands.html/</loc>
     <changefreq>yearly</changefreq>
     <priority>0,5</priority>
   </url>
 
   <url>
-    <loc>https://telonahyuga.github.io/Rinne/critical.html/</loc>
+    <loc>https://telonahyuga.github.io/THR_Arch/critical.html/</loc>
     <changefreq>daily</changefreq>
     <priority>1,0</priority>
   </url>
 
   <url>
-    <loc>https://telonahyuga.github.io/Rinne/backup.html/</loc>
+    <loc>https://telonahyuga.github.io/THR_Arch/backup.html/</loc>
     <changefreq>monthly</changefreq>
     <priority>1,0</priority>
   </url>
 
   <url>
-    <loc>https://telonahyuga.github.io/Rinne/DE.html/</loc>
+    <loc>https://telonahyuga.github.io/THR_Arch/DE.html/</loc>
     <changefreq>monthly</changefreq>
     <priority>1,0</priority>
   </url>
