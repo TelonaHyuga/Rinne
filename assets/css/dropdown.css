@@ -1,10 +1,13 @@
 /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
+
 /* Выпадающее содержимое (скрыто по умолчанию) */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -12,20 +15,22 @@
     z-index: 2;
     border-radius: 2em;
     backdrop-filter: blur(5px);
-    border: 0.3rem solid var(--BaseColor);
+    border: 0.3rem solid var(--TextColor);
     margin-left: -2rem;
     animation: DropDownAnim normal .3s linear;
 }
-  
+
+
 /* Ссылки внутри выпадающего списка */
+
 .dropdown-content a {
     color: var(--TextColor);
     padding: 0.3em 0.5em;
-    text-decoration: none;
-    display:inline-table;
-    border-radius: 0.7em;
+    margin: 1em;
+    border-radius: 1em;
+    border: 0.2rem solid var(--TextColor);
+    display: inherit;
     animation: DropDownAnim2 normal .5s linear;
-    border: 0.2rem groove var(--TextColor);
 }
 
 .dropdown-content h1 {
@@ -56,11 +61,23 @@
     bottom: 50px;
 }
 
+
 /* Изменение цвета выпадающих ссылок при наведении курсора */
-.dropdown-content a:hover {animation: contenthover .2s both linear;}
+
+.dropdown-content a:hover {
+    animation: contenthover .2s both linear;
+}
+
+.selectbutt {
+    background: linear-gradient(-45deg, var(--BaseColor) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, var(--BaseColor) 100%);
+}
 
 /* Показать выпадающее меню при наведении курсора */
-.dropdown:hover .dropdown-content {display: block; box-shadow: var(--BlockShadow);}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    box-shadow: var(--BlockShadow);
+}
 
 .change-lang {
     background-color: var(--DropDown);

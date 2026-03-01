@@ -1,54 +1,72 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Minecraft Rus';
-    transition: 0.8s;
+    font-family: serif;
+    transition: 0.5s;
 }
 
 a {
     text-decoration: none;
+    color: #1483bb;
 }
 
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
-
-.linkh3 {
-    font-size: 1.1vw;
-}
-
-.flag {
-    width: 1.5vw;
-}
-
-.linkpoint {
-    width: 2vw;
+body  {
+    background: var(--Background);
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: "Minecraft Rus";
-    src: url("../language/minecraft.ttf");
+button{
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
-.backgrounded {
-    background: var(--Background);
+code {
+    color: chartreuse;
+    width: fit-content;
 }
 
-.RLC {
-    margin-left: 2vw;
-    margin-right: 2vw;
+.monospaced {
+    font-family: "Courier New", Courier, monospace; 
+    word-break: break-word;
+}
+
+.svg {
+    filter: var(--SVGcolor);
+    width: 5em;
+}
+
+.svgbtn {
+    border-radius: 20px;
+    background: var(--BaseColor);
+}
+
+.linkbtn {
+    border-radius: 20px;
+    background: var(--BaseColor);
+    max-width: fit-content;
+    padding: 10px .5em 0;
+    box-shadow: var(--BaseShadowHover);
+    height: fit-content;
+    margin: 1em;
+}
+
+.linkbtn:hover {
+    background: #1483bb;
+}
+
+.langland {
+    float: right;
+    margin-right: .5em;
+    margin-top: .5em;
+}
+
+.text {
+    color: var(--TextColor);
 }
 
 .img_16_9 {
@@ -63,14 +81,6 @@ html {
     height: auto;
     aspect-ratio: 1/1;
     object-fit: contain;
-}
-
-.TTT {
-    margin-right: 0.5em;
-    margin-top: 0.6rem;
-    color: var(--BaseColor);
-    text-shadow: var(--SecondShadow);
-    font-size: 0.6em;
 }
 
 li {
@@ -88,15 +98,18 @@ li {
 }
 
 .switch {
-    margin-top: 0px;
+    margin-top: 0;
     position: relative;
     display: inline-block;
     width: 2em;
     height: 1em;
+    margin-left: .2em;
 }
 
 .ThemeSwitch {
-    margin: 0.5em;
+    margin: .5em;
+    margin-top: 1em;
+    float: right;
 }
 
 /* Hide default HTML checkbox */
@@ -112,7 +125,7 @@ li {
     background-color: var(--BaseColor);
     -webkit-transition: .4s;
     transition: .4s;
-    border-radius: 3em;
+    border-radius: 20px;
 }
 
 .slider:before {
@@ -125,7 +138,7 @@ li {
     background-color: var(--SecondColor);
     -webkit-transition: .4s;
     transition: .4s;
-    border-radius: 3em;
+    border-radius: 17px;
 }
 
 input:checked + .slider {
@@ -146,24 +159,11 @@ select {
   transition: 0.4s;
 }
 
-select:hover,
-select:focus {
-  background: var(--BlockShadow);
-  box-shadow: var(--BaseShadow);
-}
-
 option {
   display: flex;
-  justify-content: flex-start;
   gap: 20px;
   background: var(--BaseColor);
   padding: 10px;
-}
-
-.sticky {
-    top: 0.5vw;
-    position: sticky;
-    z-index: 9999;
 }
 
 #upBtn {
@@ -175,116 +175,51 @@ option {
   border: none;
   outline: none;
   background-color: var(--BaseColor);
-  color: white;
-  cursor: pointer;
+  color: var(--TextColor);
   padding: 15px;
-  border-radius: 0.8vw;
+  border-radius: 20px;
   font-size: xx-large;
-  transition: 0.6s;
+  box-shadow: var(--BlockShadow2);
 }
 
 #upBtn:hover {
   background-color: var(--SecondColor);
 }
 
-.DivRow {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+.docblock {
+    margin-left: 43em;
+    top: 6em;
+    width: fit-content;
+    position: absolute;
 }
 
-/* Create two equal columns that sits next to each other */
-.DivColumn {
-  flex: 50%;
-  padding: 0 4px;
-}
 
-.DivColumn img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-.copied {
-  display: none;
-  color: var(--TextColor);
-  margin-top: -1.5em;
-  margin-left: 2em;
-  animation: fade .3s both;
-}
-
-.copy-btn {
-    background: none;
-    border: none;
-    outline: none;
-}
-
-.box {
-    border-radius: 3em;
-    box-shadow: var(--BlockShadow);
-}
-
-.box2 {
-    border-radius: 3em;
-    box-shadow: var(--BlockShadow);
-    margin: 2vw 5vw 2vw 5vw;
-    padding: 1vw;
-}
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: auto;
-    grid-auto-flow: dense;
-    gap: 6px;
-}
-
-.gallery img {
-    max-width: 25em;
-    background: var(--BackgroundGradient);
-    box-shadow: var(--BaseShadow);
-    border-radius: 3em;
-    border: 1px solid;
-    border-color: var(--BaseColor);
-}
-
-table {
-    border-radius: 3em;
-    border: 1px solid;
-    border-collapse: separate;
-    border-spacing: 1em;
-    table-layout: fixed;
-    margin-left: auto;
-    margin-right: auto;
-    padding: .2em;
-}
-
-th, td {
-    padding: 1em;
-}
-
-tr {
-    box-shadow: var(--BaseShadow);
-    border-radius: 3em;
+.heeder {
     text-align: center;
-    border: 1px solid;
 }
 
-.center {
-    margin-left: auto;
-    margin-right: auto;
+.important {
+    text-decoration: underline;
 }
 
-.newlink {
-    position: fixed;
-    text-align: center;
-    backdrop-filter: blur(5px);
-    background: var(--DropDown);
-    box-shadow: var(--BlockShadow);
-    color: var(--BaseColor);
-    border-radius: 3em;
-    padding: 1em;
-    z-index: 10000;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: -10%;
-    border: 2px solid var(--BaseColor);
+.absolyte {
+    position: absolute;
+}
+
+.arch {
+    color: #1793d1;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+.checked {
+    background: #1483bb;
+}
+
+.paragraph p {
+    padding: .5em;
+    border: 2px #1483bb solid;
+    border-radius: 20px;
+    margin-left: 7em;
+    margin-right: 7em;
 }

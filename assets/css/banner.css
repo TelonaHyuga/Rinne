@@ -1,129 +1,95 @@
-.THRTitel {
-    width: 30vw;
+.banner{
+    width: 40em;
+    height: 40em;
+    border-radius: 0 0 4em 0;
+    background: var(--BannerGradient);
+    float: top left;
+    anchor-name: --banner;
 }
 
-.portfolio{
-    margin-top: -4vw;
-    width: 50vw;
+.bannericon {
+    width: 30em;
+    height: 30em;
+    margin: 3em;
+    filter: drop-shadow(0 7px 0 #1483bb);
 }
 
-.PR {
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: 16/3;
-    object-fit: contain;
+.underbanner {
+    padding-top: 41em;
 }
 
-.THRHead {
-    width: 16.5vw;
-    scale: 1.5;
-    transform: translate(0, 0);
-    animation: head 10s infinite linear;
+.underbannerP {
+    padding-top: 7em;
 }
 
-.TabelHeadLeft {
-    margin-left: 35vw;
-    margin-right: 5vw;
+.bannerparagraph {
+    float: right;
+    margin-top: 7em;
+    margin-left: 42em;
 }
 
-.TabelHeadLeft2 {
-    margin-left: 15vw;
-    margin-right: 5vw;
+.bannerinline, .bannerinline2 {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    background: var(--BaseColor);
+    border-radius: 0 0 4em 0;
+    corner-shape: scoop;
+    position-anchor: --banner;
+    position-area: top right;
 }
 
-.tabelbanner {
-    padding-left: 5vw;
-    padding-right: 5vw;
+.bannerinline2 {
+    height: 4em;
+    position-area: bottom left;
+    margin-top: 40em;
+    filter: contrast(1.2);
 }
 
-.Panel {
-    background: var(--Background);
-    border-radius: 3em;
-    box-shadow: var(--BlockShadow);
-    margin-left: 4vw;
-    margin-right: 4vw;
+.bannershadow {
+    filter: drop-shadow(4px 4px 0 #1483bb);
+    width: 45em;
+    height: 40em;
 }
 
-.Panel ul {
-    padding: 0.5vw;
+.indexlegs {
+    position: static;
+    margin-top: 38em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5em;
+    padding: .2em;
+    border-radius: 20px 20px 0 0;
+    background: var(--BannerGradient);
+}
+
+.legs {
+    position: static;
+    float: bottom;
+    margin-top: 5em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5em;
+    padding: .2em;
+    border-radius: 20px 20px 0 0;
+    background: var(--BannerGradient);
+}
+
+.tabel {
+    margin-left: 47.5vw;
+    margin-right: 47.5vw;
 }
 
 .PE {
-    width: 4vw;
+    width: 4.4vw;
+    background: var(--SecondColor);
+    border-radius: 15px;
 }
 
-.PSVG {
-    filter: var(--SVGcolor);
-}
-
-.PSVGOFF {
-    filter: var(--SVGcolor);
-}
-
-.PSVG:hover {
-    scale: 1.5;
-}
-
-.PSVGBase {
-    filter: var(--SVGbase);
-}
-
-.PSVGBase:hover {
-    scale: 1.5;
-}
-
-.hoverBlock {
-    background-color: #dddddd75;
-}
-
-.PanelP {
-    justify-content: space-evenly;
-}
-
-.PanelNoLP {
-    justify-content: start;
-}
-
-.TextHover {
-    transition: 0.8s;
-}
-
-.TextHover:hover {
-    scale: 1.5;
-}
-
-.PostBG {
-    background: var(--BackgroundGradient);
-    aspect-ratio: 1/1;
-    border-radius: 3em;
-    box-shadow: var(--BlockShadow);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.scaller {
-    width: 30vw;
-}
-
-.TabsAcryl {
-    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-    backdrop-filter: blur(5px);
-    border-radius: 0 0 3em 3em;
-}
-
-.image-container {
-    display: inline-block;
-    position: relative;
-}
-
-.image-container img {
-    transition: transform 0.3s ease;
-    position: relative;
-}
-
-.image-container img.enlarged {
-    transform: scale(1.5);
-    z-index: 3;
-    backdrop-filter: blur(5px);
-    position: relative;
+.btnblock {
+    position: absolute;
+    top: 0;
+    right: 0;
 }

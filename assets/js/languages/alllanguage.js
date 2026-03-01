@@ -6,44 +6,44 @@ const langArr = {
     },
 
     "homelink" : {
-        "ru": '<a href="index#ru" style="width: 13vw;"><h3 class="linkh3">&#9775; Главная</h3></a>',
-        "en": '<a href="index#en" style="width: 13vw;"><h3 class="linkh3">&#9775; Home</h3></a>',
-        "fr": '<a href="index#fr" style="width: 13vw;"><h3 class="linkh3">&#9775; Maison</h3></a>',
+        "ru": '<a href="index#ru"><h3 class="text">Главная</h3></a>',
+        "en": '<a href="index#en"><h3 class="text">Home</h3></a>',
+        "fr": '<a href="index#fr"><h3 class="text">Maison</h3></a>',
     },
 
-    "inflink" : {
-        "ru": '<a href="info#ru" style="width: 13vw;"><h3 class="linkh3">&#9885; Информация</h3></a>',
-        "en": '<a href="info#en" style="width: 13vw;"><h3 class="linkh3">&#9885; Info</h3></a>',
-        "fr": '<a href="info#fr" style="width: 13vw;"><h3 class="linkh3">&#9885; Information</h3></a>',
+    "installlink" : {
+        "ru": '<a href="install#ru"><h3 class="text">Установка</h3></a>',
+        "en": '<a href="install#en"><h3 class="text">Install</h3></a>',
+        "fr": '<a href="install#fr"><h3 class="text">Installer</h3></a>',
     },
     
-    "partlink" : {
-        "ru": '<a href="partners#ru" style="width: 13vw;"><h3 class="linkh3">&#9884; Партнёры</h3></a>',
-        "en": '<a href="partners#en" style="width: 13vw;"><h3 class="linkh3">&#9884; Partners</h3></a>',
-        "fr": '<a href="partners#fr" style="width: 13vw;"><h3 class="linkh3">&#9884; Partenaire</h3></a>',
+    "criticallink" : {
+        "ru": '<a href="critical#ru"><h3 class="text">Критические ситуации</h3></a>',
+        "en": '<a href="critical#en"><h3 class="text">Critical situation</h3></a>',
+        "fr": '<a href="critical#fr"><h3 class="text">Situation critique</h3></a>',
     },
 
-    "portfoliolink" : {
-        "ru": '<a href="portfolio#ru" style="width: 13vw;"><h3 class="linkh3">&#9752; Портфолио</h3></a>',
-        "en": '<a href="portfolio#en" style="width: 13vw;"><h3 class="linkh3">&#9752; Portfolio</h3></a>',
-        "fr": '<a href="portfolio#fr" style="width: 13vw;"><h3 class="linkh3">&#9752; Portefeuille</h3></a>',
+    "backuplink" : {
+        "ru": '<a href="backup#ru"><h3 class="text">Бэкап</h3></a>',
+        "en": '<a href="backup#en"><h3 class="text">Backup</h3></a>',
+        "fr": '<a href="backup#fr"><h3 class="text">Sauvegarde</h3></a>',
     },
 
-    "linkslink" : {
-        "ru": '<a href="links#ru" style="width: 13vw;"><h3 class="linkh3">&#10002; Ссылки</h3></a>',
-        "en": '<a href="links#en" style="width: 13vw;"><h3 class="linkh3">&#10002; Links</h3></a>',
-        "fr": '<a href="links#fr" style="width: 13vw;"><h3 class="linkh3">&#10002; Liens</h3></a>',
+    "interestinglink" : {
+        "ru": '<a href="interesting#ru"><h3 class="text">Интересное</h3></a>',
+        "en": '<a href="interesting#en"><h3 class="text">Interesting</h3></a>',
+        "fr": '<a href="interesting#fr"><h3 class="text">Intéressant</h3></a>',
     },
 
-    "pricelink" : {
-        "ru": '<a href="price#ru" style="width: 13vw;"><h3 class="linkh3">&#36; Цены</h3></a>',
-        "en": '<a href="price#en" style="width: 13vw;"><h3 class="linkh3">&#36; Price</h3></a>',
-        "fr": '<a href="price#fr" style="width: 13vw;"><h3 class="linkh3">&#36; Prix</h3></a>',
+    "commandslink" : {
+        "ru": '<a href="commands#ru"><h3 class="text">Команды</h3></a>',
+        "en": '<a href="commands#en"><h3 class="text">Commands</h3></a>',
+        "fr": '<a href="commands#fr"><h3 class="text">Commandes</h3></a>',
     },
 
-    "newlink" : {
-        "ru": '<h1 class="TTBT">Я перенесла сайт на новый домен - telona.xo.je</h1><br><h1 class="TTBT">Сайт по этому домену больше не обновляется</h1><br><h1 class="TTBT">Нажмите для перехода на новый сайт</h1>',
-        "en": '<h1 class="TTBT">I moved the site to a new domain - telona.xo.je</h1><br><h1 class="TTBT">The site for this domain is no longer updated</h1><br><h1 class="TTBT">Click to go to the new site</h1>',
-        "fr": '<h1 class="TTBT">J`ai déplacé le site vers un nouveau domaine : telona.xo.je</h1><br><h1 class="TTBT">Ce site n`est plus mis à jour</h1><br><h1 class="TTBT">Cliquez ici pour accéder au nouveau site</h1>',
+    "delink" : {
+        "ru": '<a href="DE#ru"><h3 class="text">DE</h3></a>',
+        "en": '<a href="DE#en"><h3 class="text">DE</h3></a>',
+        "fr": '<a href="DE#fr"><h3 class="text">DE</h3></a>',
     },
 }

@@ -1,48 +1,36 @@
-body {
-    background-color: var(--Background);
-    transition: 0.8s;
-}
-
-.BackGradient {
-    background: linear-gradient(var(--SecondColor), var(--BaseColor));
-    max-height: 40vw;
-    width: 100%;
-    aspect-ratio: 16/9;
-    border-radius: 0 0 3em 3em;
-    box-shadow: var(--BlockShadow);
-}
-
-:root {
-    --BaseColor: rgb(218, 107, 225);
-    --SecondColor: rgb(165, 54, 173);
-    --BaseShadow: 0 0 10px rgb(165, 54, 173);
-    --SecondShadow: 0 10px 10px rgb(165, 54, 173);
+:root[t-theme='dark'] {
+    --BaseColor: rgb(107, 176, 225);
+    --SecondColor: rgb(54, 121, 173);
+    --BaseShadow: 0 0 10px rgb(54, 121, 173);
+    --BaseShadowHover: 0 10px 0 rgb(54, 121, 173);
+    --SecondShadow: 0 10px 10px rgb(54, 121, 173);
     --Background: rgb(255, 255, 255);
     --BackInverted: rgb(58, 58, 58);
-    --BlockShadow: 0 0 2em rgb(83, 83, 83);
+    --BlockShadow: .2em .2em 0 rgb(0, 0, 0);
+    --BlockShadow2: 0 0 .2em rgb(0, 0, 0);
     --SVGcolor: brightness(0) saturate(100%) invert(16%) sepia(12%) saturate(0%) hue-rotate(101deg) brightness(95%) contrast(93%);
-    --SVGbase: brightness(0) saturate(100%) invert(82%) sepia(30%) saturate(6311%) hue-rotate(263deg) brightness(89%) contrast(96%);;
-    --DropDown: rgba(255, 255, 255, 0.5);
-    --DropDownHover: rgba(121, 121, 121, 0.5);
-    --TextColor: rgb(58, 58, 58);
+    --SVGbase: brightness(0) saturate(100%) invert(82%) sepia(30%) saturate(6311%) hue-rotate(263deg) brightness(89%) contrast(96%);
+    --TextColor: rgb(0, 0, 0);
+    --BannerGradient: linear-gradient(145deg, rgb(54, 121, 173) 0%, rgb(107, 176, 225) 40%, rgb(133, 195, 239) 90%);
     --BackgroundGradient: radial-gradient(rgb(255, 255, 255), rgb(192, 192, 192));
     --RadioChecked: #885a82;
     --BlockOpasity: rgba(0, 0, 0, 0.199);
 }
 
-:root[t-theme='dark'] {
-    --BaseColor: rgb(218, 107, 225);
-    --SecondColor: rgb(165, 54, 173);
-    --BaseShadow: 0 0 10px rgb(165, 54, 173);
-    --SecondShadow: 0 10px 10px rgb(165, 54, 173);
-    --Background: rgb(58, 58, 58);
+:root {
+    --BaseColor: rgb(107, 176, 225);
+    --SecondColor: rgb(54, 121, 173);
+    --BaseShadow: 0 0 10px rgb(54, 121, 173);
+    --BaseShadowHover: 0 10px 0 rgb(54, 121, 173);
+    --SecondShadow: 0 10px 10px rgb(54, 121, 173);
+    --Background: rgb(43, 43, 43);
     --BackInverted: rgb(255, 255, 255);
-    --BlockShadow: 0 0 2em rgb(27, 27, 27);
+    --BlockShadow: .2em .2em 0 #1483bb;
+    --BlockShadow2: 0 0 .2em rgb(0, 0, 0);
     --SVGcolor: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(273deg) brightness(103%) contrast(103%);
-    --SVGbase: brightness(0) saturate(100%) invert(82%) sepia(30%) saturate(6311%) hue-rotate(263deg) brightness(89%) contrast(96%);;
-    --DropDown: rgba(58, 58, 58, 0.5);
-    --DropDownHover: rgba(218, 107, 225, 0.5);
+    --SVGbase: brightness(0) saturate(100%) invert(82%) sepia(30%) saturate(6311%) hue-rotate(263deg) brightness(89%) contrast(96%);
     --TextColor: rgb(255, 255, 255);
+    --BannerGradient: linear-gradient(145deg, rgb(54, 121, 173) 0%, rgb(107, 176, 225) 40%, rgb(133, 195, 239) 90%);
     --BackgroundGradient: radial-gradient(rgb(160, 160, 160), rgb(56, 56, 56));
     --RadioChecked: #885a82;
     --BlockOpasity: rgba(0, 0, 0, 0.418);

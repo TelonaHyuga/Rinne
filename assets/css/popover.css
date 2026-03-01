@@ -1,0 +1,23 @@
+#langpop {
+    position-anchor: langpop-btn;
+    position-area: bottom center;
+    position: absolute;
+    background-color: var(--BaseColor);
+    border-radius: 1em;
+    border: 0.3rem solid var(--BaseColor);
+    margin-left: -2rem;
+}
+
+#langpoptop {
+    position-anchor: langpop-btn;
+    position-area: top center;
+    position: absolute;
+    background-color: var(--BaseColor);
+    border-radius: 1em;
+    border: 0.3rem solid var(--BaseColor);
+    margin-left: -2rem;
+}
+
+.langpopbtn {
+    anchor-name: --langpop-btn;
+}
